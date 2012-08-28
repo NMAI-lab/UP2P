@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/u-p2p/!svn/ver/773/u-p2p/trunk/src/up2p/tspace
+END
+UP2PWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/u-p2p/!svn/ver/761/u-p2p/trunk/src/up2p/tspace/UP2PWorker.java
+END
+TSScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/u-p2p/!svn/ver/730/u-p2p/trunk/src/up2p/tspace/TSScanner.java
+END
+NameValueField.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/u-p2p/!svn/ver/267/u-p2p/trunk/src/up2p/tspace/NameValueField.java
+END
+TupleFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/u-p2p/!svn/ver/710/u-p2p/trunk/src/up2p/tspace/TupleFactory.java
+END
+MonitorWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/u-p2p/!svn/ver/773/u-p2p/trunk/src/up2p/tspace/MonitorWorker.java
+END
+TuplePair.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/u-p2p/!svn/ver/730/u-p2p/trunk/src/up2p/tspace/TuplePair.java
+END
+UP2PFunctionWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/u-p2p/!svn/ver/640/u-p2p/trunk/src/up2p/tspace/UP2PFunctionWorker.java
+END
+WorkerInbox.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/u-p2p/!svn/ver/730/u-p2p/trunk/src/up2p/tspace/WorkerInbox.java
+END
+CleaningWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/u-p2p/!svn/ver/623/u-p2p/trunk/src/up2p/tspace/CleaningWorker.java
+END
+BasicWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/u-p2p/!svn/ver/267/u-p2p/trunk/src/up2p/tspace/BasicWorker.java
+END
+TrustWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/u-p2p/!svn/ver/619/u-p2p/trunk/src/up2p/tspace/TrustWorker.java
+END
+TupleInstruction.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/u-p2p/!svn/ver/143/u-p2p/trunk/src/up2p/tspace/TupleInstruction.java
+END
+UP2PAgentFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/u-p2p/!svn/ver/640/u-p2p/trunk/src/up2p/tspace/UP2PAgentFactory.java
+END

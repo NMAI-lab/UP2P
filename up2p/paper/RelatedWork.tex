@@ -1,0 +1,29 @@
+\section{Related Work}
+
+\subsection{Distributed Wikis} 
+
+Most existing Wiki systems, including distributed Wikis deployed in P2P networks, support a centralized collaboration model, where a single master version of each article is available at any given time. 
+
+In Piki \cite{Mukherkjee:piki}, which is deployed in a Distributed Hash Table (DHT), each article is managed by a single owner node (determined by the DHT protocol), and the versioning of the article is thus centralized. 
+
+In the Wooki \cite{ Weiss:2007:WPW:1781374.1781430} and Uniwiki \cite{Oster:2009:UCP:1590968.1591823} projects, each article is replicated in multiple nodes, and changes made on each node are propagated to the others through the network, and merged, so that replicated copies at all nodes converge to the same version once the system is at rest. For this purpose, articles are stored as partially ordered sets of edit operations (``diffs") rather than explicit versions. These atomic ``diffs" can then be merged automatically to produce a coherent page to render to the user. 
+
+In DistriWiki \cite{Morris2007}, deployed in a P2P network using the JXTA protocol, users are expected to search the network for the latest version of a page in order to edit it, and concurrent editing is left to the user to resolve. As such, the Wiki engine itself does not really manage the page versioning, which could allow for other collaboration models, such as the one we propose. 
+
+\subsection{Collaborative Edition of Documents}
+
+Many other tools for collaborative edition of documents use the same centralized collaboration model as Wikis. 
+
+Google Docs\footnote{http://docs.google.com/} is an online editing tool where multiple users may simultaneously edit a document. The document being edited is visible to all the users, and it is possible to revert to the previous version (on the stack of versions), but choosing among multiple versions or allowing to ``branch out" into different versions is not possible.
+
+PeerCollaboration \cite{springerlink:peercollaboration} is a tool meant to support collaborative editing of documents, where each user may not directly edit the document. Instead, each user may propose changes, which are then voted on. 
+
+\subsection{Collaborative Software Development}
+
+In most software development projects, multiple programmers collaborate to write code, and use tools known as Version Control systems to coordinate their work. Traditional Version Control tools such as CVS (Concurrent Versioning System) or Apache Subversion (SVN) implement a centralized collaboration model, where users frequently synchronize their local working copy of each file with a centralized repository. Issues arising from the parallel modification of files are left to each user to manage, i.e. when a user finds that her local version and the repository version have been modified in parallel, she then manually merges the parallel versions back to a single subsequent version. Such manual merging is only possible in relatively small-scale projects.
+
+Recently, distributed Version Control tools have emerged, such as Mercurial\cite{DBLP:books/daglib/0022917} and Git \cite{Swicegood:2008:GIT}. The principle of distributed version control, particularly as promoted by Git, is that each user stores the full history of her local version. No particular version is considered to be a ``master", reference version as in centralized systems. Users may ``pull" changes from others and merge them into their version. This collaboration model closely resembles the principles used by our Wiki system P2Pedia. The main difference comes from the fact that the software development context puts much tighter dependencies between the different documents in the repository, than simple text documents or linked web pages (as in a Wiki). For this reason each user in a distributed Version Control system must respect implicit integrity constraints when choosing or merging versions of the different files. In a Wiki these problems are irrelevant, but other issues appear such as the semantics of Wikilinks, in particular the meaning of referring to potentially multiple versions of a document located in multiple peers.
+
+\subsection{Semantics of Wikilinks}
+
+We note that in other distributed Wiki systems, due to the centralized collaboration model, it is assumed that the latest version of each document is the ``authoritative" version. Therefore, the semantics of Wikilinks are simply to point to the latest version of each document. Implicitly, the latest version is the one to be \emph{trusted}.

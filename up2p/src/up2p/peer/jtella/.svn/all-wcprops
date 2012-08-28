@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/u-p2p/!svn/ver/755/u-p2p/trunk/src/up2p/peer/jtella
+END
+SearchRequestMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/u-p2p/!svn/ver/596/u-p2p/trunk/src/up2p/peer/jtella/SearchRequestMessage.java
+END
+TestSearchResponseXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/u-p2p/!svn/ver/196/u-p2p/trunk/src/up2p/peer/jtella/TestSearchResponseXML.java
+END
+MalformedPeerMessageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/u-p2p/!svn/ver/111/u-p2p/trunk/src/up2p/peer/jtella/MalformedPeerMessageException.java
+END
+SearchResponseMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/u-p2p/!svn/ver/596/u-p2p/trunk/src/up2p/peer/jtella/SearchResponseMessage.java
+END
+SerializableMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/u-p2p/!svn/ver/111/u-p2p/trunk/src/up2p/peer/jtella/SerializableMessage.java
+END
+JTellaAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/u-p2p/!svn/ver/785/u-p2p/trunk/src/up2p/peer/jtella/JTellaAdapter.java
+END
+GenericPeerMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/u-p2p/!svn/ver/140/u-p2p/trunk/src/up2p/peer/jtella/GenericPeerMessage.java
+END
+HostCacheParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/u-p2p/!svn/ver/785/u-p2p/trunk/src/up2p/peer/jtella/HostCacheParser.java
+END

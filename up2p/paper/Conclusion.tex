@@ -1,0 +1,16 @@
+\section{Conclusion}
+
+The principles of file-sharing define basic operations for users to manage a local repository of documents, where they may import documents stored by others. By applying these principles to a wiki system, we have obtained an original system that supports a non-traditional collaboration model. In our wiki system, users create new documents, download them from others, and store them in their local repository just like any other files they could share in the underlying file-sharing application. The wiki functionality is simply an additional layer used by the web browser, whereby this web browser becomes an editing tool. We consider that the process of editing a document produces a new, separate document, related to the previous by a versioning relation. 
+
+This versioning relation, materialized by a link, is simply an instance of a general \emph{document relation} concept, defined in the greater context of our file-sharing model. From the semantics of this ``parent" link, we can define further versioning relations, such as ``child", ``ancestor", ``descendent", which can be inferred from the ``parent" relation. This inference, here consists in using implicit inverse relations, and the notion of transitive closure. These notions can be obtained using graph query principles which are already defined for any type of links between documents.
+
+
+In a sense, the underlying implementation of the queries does not need to know the semantics of the ``parent" relation, any more than the database needs to know that the documents being stored are wiki pages.
+
+Ultimately, this application -- a full-fledged wiki engine -- is simply an application of general file-sharing principles, with the extra feature of document \emph{relations}. 
+
+Similarly, the notions of trust that support the collaboration model, by allowing users to select the existing versions, are applicable to other file-sharing applications.
+
+In future work, we intend to further customize our application P2Pedia, and deploy it as a note-taking tool, for several courses at Carleton University, and in an area high-school. This will be an opportunity to study the applicability of our approach, and the relevance of our proposed trust indicators.
+
+We note that an online demo of P2Pedia is currently usable at the address http://inm-04.sce.carleton.ca:8080/up2p.

@@ -1,0 +1,79 @@
+\documentclass{IEEEtran}
+%
+%\smartqed  % flush right qed marks, e.g. at end of proof
+%
+\usepackage{graphicx}
+%\usepackage{array}
+%\usepackage{cite}
+%\usepackage[numbers]{natbib}%use numbered citations
+%\usepackage{subfigure}
+%\usepackage{amsmath}
+%\usepackage[indent,bf]{caption2}
+%\usepackage{rotating}
+%\usepackage{setspace}
+%\usepackage{longtable}
+%\usepackage{mathrsfs}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+
+
+\usepackage{url}
+\usepackage{subfigure}
+
+\begin{document}
+
+% first the title is needed
+\title{A Distributed Wiki System Based on Peer-to-peer File Sharing Principles}
+
+% the name(s) of the author(s) follow(s) next
+%
+%
+
+
+\author{\IEEEauthorblockN{Alexander Craig, Alan Davoust and Babak Esfandiari}
+
+\IEEEauthorblockA{Department of Systems and Computer Engineering\\
+Carleton University\\
+Ottawa, Canada\\
+aaecraig@connect.carleton.ca, adavoust@sce.carleton.ca, babak@sce.carleton.ca}
+}
+%
+%\authorrunning{Towards Semantically Enhanced P2P File-Sharing}
+% (feature abused for this document to repeat the title also on left hand pages)
+
+% the affiliations are given next; don't give your e-mail address
+% unless you accept that it will be published
+%\institute{Department of Systems and Computer Engineering \\
+%Carleton University \\
+%1125 Colonel By Drive \\
+%Ottawa, Ontario, Canada \\
+%babak@sce.carleton.ca\\
+%adavoust@sce.carleton.ca}
+%
+%
+%
+%\IEEEpeerreviewmaketitle
+\maketitle
+
+\begin{abstract}
+In peer-to-peer (P2P) file-sharing networks, each peer maintains its own repository, publishing files, downloading files from others, and making its own files available for download. We present P2Pedia, a distributed wiki system applying these principles to collaborative edition of documents: contributors may maintain their own version of each document, while accessing and reusing the contributions of others. This collaboration model, by allowing for multiple versions of a document, generates a different type of versioning hierarchy, and changes the semantics of wikilinks. We describe the versioning and wikilinks relationships in terms of more abstract document relationships, present trust indicators to help choose among multiple versions of a document and describe a general approach to answering complex queries over the graph of document induced by the versioning and wikilinks relationships. Finally, we present the design and implementation of P2Pedia, and propose some scenarios where our proposed collaboration model is most appropriate.
+\end{abstract}
+
+\begin{IEEEkeywords}
+wiki; peer-to-peer; graph queries; trust
+
+\end{IEEEkeywords}
+
+%=====================================================================================================
+\input{Introduction.tex}
+
+\input{RelatedWork.tex}
+\input{OurProposal.tex}
+\input{Implementation.tex}
+\input{EvaluationAndValidation.tex}
+\input{Conclusion.tex}
+
+\bibliographystyle{IEEEtran}
+\bibliography{rwj}
+
+\end{document}

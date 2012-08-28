@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/u-p2p/!svn/ver/762/u-p2p/trunk/src/up2p/servlet
+END
+AbstractWebAdapterServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/u-p2p/!svn/ver/800/u-p2p/trunk/src/up2p/servlet/AbstractWebAdapterServlet.java
+END
+AccessFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/u-p2p/!svn/ver/780/u-p2p/trunk/src/up2p/servlet/AccessFilter.java
+END
+CreateServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/u-p2p/!svn/ver/801/u-p2p/trunk/src/up2p/servlet/CreateServlet.java
+END
+SearchServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/u-p2p/!svn/ver/726/u-p2p/trunk/src/up2p/servlet/SearchServlet.java
+END
+ConfigServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/u-p2p/!svn/ver/793/u-p2p/trunk/src/up2p/servlet/ConfigServlet.java
+END
+DownloadServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/u-p2p/!svn/ver/460/u-p2p/trunk/src/up2p/servlet/DownloadServlet.java
+END
+XPathSearchServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/u-p2p/!svn/ver/726/u-p2p/trunk/src/up2p/servlet/XPathSearchServlet.java
+END
+RelayServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/u-p2p/!svn/ver/696/u-p2p/trunk/src/up2p/servlet/RelayServlet.java
+END
+ShutdownListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/u-p2p/!svn/ver/761/u-p2p/trunk/src/up2p/servlet/ShutdownListener.java
+END
+HttpParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/u-p2p/!svn/ver/800/u-p2p/trunk/src/up2p/servlet/HttpParams.java
+END
+UserServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/u-p2p/!svn/ver/762/u-p2p/trunk/src/up2p/servlet/UserServlet.java
+END
+PushServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/u-p2p/!svn/ver/696/u-p2p/trunk/src/up2p/servlet/PushServlet.java
+END
+DatabaseViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/u-p2p/!svn/ver/327/u-p2p/trunk/src/up2p/servlet/DatabaseViewer.java
+END
+DownloadService.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/u-p2p/!svn/ver/414/u-p2p/trunk/src/up2p/servlet/DownloadService.java
+END
+FileUploadServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/u-p2p/!svn/ver/111/u-p2p/trunk/src/up2p/servlet/FileUploadServlet.java
+END
+ContextServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/u-p2p/!svn/ver/728/u-p2p/trunk/src/up2p/servlet/ContextServlet.java
+END
+UploadServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/u-p2p/!svn/ver/801/u-p2p/trunk/src/up2p/servlet/UploadServlet.java
+END
+RetrieveServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/u-p2p/!svn/ver/799/u-p2p/trunk/src/up2p/servlet/RetrieveServlet.java
+END
+GraphQueryServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/u-p2p/!svn/ver/363/u-p2p/trunk/src/up2p/servlet/GraphQueryServlet.java
+END
+DefaultDownloadService.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/u-p2p/!svn/ver/566/u-p2p/trunk/src/up2p/servlet/DefaultDownloadService.java
+END

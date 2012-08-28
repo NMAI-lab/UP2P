@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/u-p2p/!svn/ver/742/u-p2p/trunk/src/up2p/rdf
+END
+Up2pRDFValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/u-p2p/!svn/ver/522/u-p2p/trunk/src/up2p/rdf/Up2pRDFValue.java
+END
+Up2pLiteral.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/u-p2p/!svn/ver/522/u-p2p/trunk/src/up2p/rdf/Up2pLiteral.java
+END
+UP2PBlankNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/u-p2p/!svn/ver/742/u-p2p/trunk/src/up2p/rdf/UP2PBlankNode.java
+END
+Up2pURI.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/u-p2p/!svn/ver/522/u-p2p/trunk/src/up2p/rdf/Up2pURI.java
+END
+Up2pRDFStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/u-p2p/!svn/ver/742/u-p2p/trunk/src/up2p/rdf/Up2pRDFStatement.java
+END
+Up2pRDFFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/u-p2p/!svn/ver/522/u-p2p/trunk/src/up2p/rdf/Up2pRDFFactory.java
+END
+Up2pRDFResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/u-p2p/!svn/ver/572/u-p2p/trunk/src/up2p/rdf/Up2pRDFResource.java
+END
+RDFAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/u-p2p/!svn/ver/522/u-p2p/trunk/src/up2p/rdf/RDFAdapter.java
+END

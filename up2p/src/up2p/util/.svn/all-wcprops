@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/u-p2p/!svn/ver/747/u-p2p/trunk/src/up2p/util
+END
+Hash.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/u-p2p/!svn/ver/462/u-p2p/trunk/src/up2p/util/Hash.java
+END
+NetUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/u-p2p/!svn/ver/146/u-p2p/trunk/src/up2p/util/NetUtil.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/u-p2p/!svn/ver/747/u-p2p/trunk/src/up2p/util/Config.java
+END
+PairList.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/u-p2p/!svn/ver/111/u-p2p/trunk/src/up2p/util/PairList.java
+END
+XmlFilenameFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/u-p2p/!svn/ver/111/u-p2p/trunk/src/up2p/util/XmlFilenameFilter.java
+END
+DateSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/u-p2p/!svn/ver/111/u-p2p/trunk/src/up2p/util/DateSupport.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/u-p2p/!svn/ver/566/u-p2p/trunk/src/up2p/util/FileUtil.java
+END
+XMLUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/u-p2p/!svn/ver/490/u-p2p/trunk/src/up2p/util/XMLUtil.java
+END

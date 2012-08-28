@@ -1,0 +1,44 @@
+\section{Evaluation and Validation}
+\label{sec:evaluation}
+The main novelty of our approach is the collaboration model supported by P2Pedia. The successful implementation and experimental deployment of P2Pedia shows the feasibility of using this collaboration model in a Wiki system.
+
+We further outline here scenarios where this collaboration model may be more appropriate than the traditional, centralized collaboration model, and briefly discuss the technical performance of our system.
+
+\subsection{Scenarios for this collaboration model}
+
+In the collaboration model supported by P2Pedia, multiple versions of the documents are shared in a file-sharing network, and their versioning relations, as well as other trust indicators, are available for the users to choose thir preferred versions. Each user thus builds her own repository, storing a subset of the documents, filtered according to her interests and personal quality criteria.
+
+As users may copy and edit documents, there is a simultaneous edition and selection process, which may lead to the most ``valuable" material to emerge.
+
+We have identified several scenarios where this collaboration model could be a better alternative to the traditional centralized one. 
+
+\subsubsection{Teaching Material} 
+The Wikimedia foundation projects Wikibooks\footnote{http://wikibooks.org/} and Wikiversity\footnote{http://wikiversity.org/} are projects inspired by Wikipedia, where textbooks and other learning material are created collaboratively, following the centralized collaboration principles of traditional wikis. 
+
+The benefit of these projects is that the learning material created this way is freely usable by instructors, and is assumed to reflect a form of consensus from the many contributors, which serves as quality assurance, as in Wikipedia. However, instructors rarely make use of a single source of learning material, and often prefer to combine various textbooks, selecting material according to their personal views on the topic. 
+
+The collaboration model offered by P2Pedia would allow instructors to share their personal teaching material for a topic, partially reused from different sources, and possibly acknowledging these sources through versioning links. Trust indicators could indicate generally popular material, but also material from like-minded scholars.
+
+\subsubsection{Collaborative Note Taking}
+Following the principles outlined for general learning material, students could collaboratively take notes for their courses. Students are usually expected to take notes individually, in addition to reading textbooks and handouts. These notes are an opportunity for the student to personalize their learning material, by noting salient points, keeping a trace of oral explanations, and generally selecting material that they feel helps their understanding of the topic at hand.
+
+Students may benefit from one another's lecture notes, and still want to study a version that is largely their own. We note that a stable and customized version of P2Pedia is to be deployed in the fall 2011 semester in several courses of Carleton University, as a note-taking tool. We intend to report on the success of this deployment in future work.
+
+\subsubsection{Community-specific Knowledge Repositories}
+
+In Wikipedia, the ``edit wars" that we hinted at in the introduction of this paper are an indication that even in the context of an encyclopedia, supposed to collect objective knowledge, a consensus may not always be found.
+
+The alternative projects that we cited before, Citizendium and Scholarpedia, are not the only wiki-encyclopedias that have been created as a result of disagreements with Wikipedia policies. For example, a group of american conservatives, unhappy with the perceived political bias of Wikipedia, have created their own wiki-encyclopedia, called Conservapedia, with the purpose of describing the world according to their own political and religious views. This encyclopedia is several orders of magnitude smaller than Wikipedia, and focuses on political articles. 
+
+Other examples can be cited, where alternative wiki-encyclopedias have been created to expand in great depth on narrow topics, such as religions or entertainment-related ``fandom" topics, such as the intricacies of a particular japanese Manga, or the fictional world of the Star Trek series. This results from the policy that only ``notable" topics can be covered by Wikipedia, as it is a general-purpose encyclopedia.
+
+As a result, such spin-off encyclopedias only cover a small set of topics, and one can imagine that their users must combine that source of knowledge with others, for example Wikipedia: for example, for non-political and non-religious topics, such as the rules of cricket or the geography of Madagascar, Conservapedia users would probably turn to Wikipedia instead of copying that material to Conservapedia. 
+
+\subsection{System Performance}
+
+The technical characteristics of P2Pedia are essentially those of the underlying P2P file-sharing system. U-P2P uses the Gnutella protocol, which uses an unstructured, fully decentralized network. As such, P2P inherits the high reliability of Gnutella, but large networks may experience network congestion. However, research towards scalable P2P search is orthogonal to our main research goals.
+
+The number and size of the shared documents in the network primarily affect (local) database access response times, but the database query times are generally negligible compared to network delays. As the number of versions of each article increases, the usability of the system may be degraded, as more effort is required from the users to sort and consider the different available versions. However, this is to be balanced with the effects of the trust indicators: larger numbers of peers and documents exhibit clearer and more statistically significant collective behavior. For example, the similarity of larger user repositories becomes more meaningful, and the replication of popular documents may reach significantly different counts from the background of unpopular documents. 
+
+In our small experimental deployment, each document is only replicated once or a small number of times, which makes it difficult to visualize any clear tendencies. Furthermore, due to its small scale, the social network is entirely known to each participant, which makes notions of ``peer popularity" and ``network distance" irrelevant.  
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/u-p2p/!svn/ver/63/u-p2p/trunk/src/schematool/core
+END
+NCName.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/u-p2p/!svn/ver/11/u-p2p/trunk/src/schematool/core/NCName.java
+END
+Facet.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/u-p2p/!svn/ver/11/u-p2p/trunk/src/schematool/core/Facet.java
+END
+DateValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/u-p2p/!svn/ver/11/u-p2p/trunk/src/schematool/core/DateValidator.java
+END
+PropertySchema.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/u-p2p/!svn/ver/11/u-p2p/trunk/src/schematool/core/PropertySchema.java
+END
+ResourceSchema.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/u-p2p/!svn/ver/63/u-p2p/trunk/src/schematool/core/ResourceSchema.java
+END
+SimpleType.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/u-p2p/!svn/ver/63/u-p2p/trunk/src/schematool/core/SimpleType.java
+END
